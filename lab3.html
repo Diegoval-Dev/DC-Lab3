@@ -7529,6 +7529,28 @@ Los avances originalmente se trabajaron en el siguiente colab notebook, posterio
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1ba0ba4e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Entorno-de-trabajo">Entorno de trabajo<a class="anchor-link" href="#Entorno-de-trabajo">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=92e07631">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Sistema-de-GPU">Sistema de GPU<a class="anchor-link" href="#Sistema-de-GPU">¶</a></h3>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=8c90d10a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7585,6 +7607,17 @@ GPUs visibles: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>En el bloque inicial habilitamos el uso de la GPU configurando el crecimiento dinámico de memoria y activamos XLA para acelerar la compilación de operaciones, luego importamos todas las librerías necesarias para el pipeline. Al imprimir la versión de TensorFlow y la lista de dispositivos GPU, confirmamos que estamos ejecutando sobre TensorFlow 2.1 y que ha detectado correctamente la tarjeta /physical_device:GPU:0, lo cual garantiza que los modelos se entrenarán aprovechando la GPU.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=92eab44a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Importaci%C3%B3n-de-im%C3%A1genes">Importación de imágenes<a class="anchor-link" href="#Importaci%C3%B3n-de-im%C3%A1genes">¶</a></h3>
 </div>
 </div>
 </div>
@@ -7685,6 +7718,17 @@ PolyMNIST en: C:\Users\diego/.cache/kagglehub/datasets/agungpambudi/mnist-multip
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>En este fragmento recorremos cada subdirectorio de PolyMNIST y, para cada modalidad encontrada, contamos cuántas carpetas de clases existen en los directorios train y test. El resultado “Modality MMNIST: 5 carpetas en train, 5 carpetas en test” indica que en la modalidad MMNIST hay cinco clases distintas (una por dígito o variante) tanto en el conjunto de entrenamiento como en el de prueba.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2f4edaef">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Verificaci%C3%B3n-y-muestreo">Verificación y muestreo<a class="anchor-link" href="#Verificaci%C3%B3n-y-muestreo">¶</a></h3>
 </div>
 </div>
 </div>
@@ -7841,6 +7885,28 @@ MMNIST   m0     10000  60000
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b745a946">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Ejecuci%C3%B3n">Ejecución<a class="anchor-link" href="#Ejecuci%C3%B3n">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=59c2a0e1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Generadores-de-Keras">Generadores de Keras<a class="anchor-link" href="#Generadores-de-Keras">¶</a></h3>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2ea84b29">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7933,6 +7999,17 @@ Clases detectadas: {'m0': 0, 'm1': 1, 'm2': 2, 'm3': 3, 'm4': 4}
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>En este bloque configuramos tres generadores de Keras que se encargan de leer directamente las imágenes desde disco, escalar sus valores de píxel a [0,1] y separar automáticamente un 10 % del entrenamiento para validación. El primer flow_from_directory identifica 270 000 ejemplos de entrenamiento (90 % de 300 000), el segundo otros 30 000 para validación y el tercero 50 000 imágenes de test. Finalmente imprimimos el diccionario de clases, comprobando que las etiquetas m0…m4 se han mapeado correctamente a los índices 0–4.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1b8aeb9c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Entrenamiento-con-MLP-B%C3%A1sico">Entrenamiento con MLP Básico<a class="anchor-link" href="#Entrenamiento-con-MLP-B%C3%A1sico">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8114,6 +8191,17 @@ Test accuracy: 0.8579
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6b2cf88e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Entrenamiento-con-CNN">Entrenamiento con CNN<a class="anchor-link" href="#Entrenamiento-con-CNN">¶</a></h3>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ac361905">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -8227,6 +8315,17 @@ CNN Test accuracy: 0.9840
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c4cdb512">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Verificaci%C3%B3n-de-CNN">Verificación de CNN<a class="anchor-link" href="#Verificaci%C3%B3n-de-CNN">¶</a></h4>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1f9c0b4f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -8295,6 +8394,17 @@ CNN Test accuracy: 0.9840
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Las curvas de accuracy muestran un aprendizaje muy rápido y estable de la CNN: en apenas dos épocas la validación supera ya el 90 %, y a partir de la época 4–5 tanto la precisión de entrenamiento como la de validación se sitúan por encima del 95 %. La ligera caída de la validación en la época 7 parece corresponderse con un pequeño pico en la curva de pérdida, pero a continuación el modelo recupera su tendencia ascendente y alcanza un pico de validación cercano al 97.5 %. El hecho de que las dos líneas se mantengan muy próximas sin que la precisión de entrenamiento se dispare por encima de la validación indica que no hay sobreajuste significativo.</p>
 <p>En cuanto a la pérdida, ambas curvas descienden con suavidad desde valores iniciales elevados hasta estabilizarse por debajo de 0.1 después de la época 10. El descenso más pronunciado se observa en las primeras tres épocas, lo que confirma que la red extrae rápidamente características discriminativas de las imágenes. El pequeño repunte de la pérdida de validación en la época 7 coincide con la fluctuación de la accuracy, pero al continuar bajando en las siguientes épocas demuestra que el modelo ajustó correctamente sus pesos para recuperar y mejorar su desempeño general. Estos patrones de convergencia y la estrecha alineación entre entrenamiento y validación validan la solidez de la CNN para este problema.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=39d32931">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Entrenamiendo-de-MLP-con-ajuste">Entrenamiendo de MLP con ajuste<a class="anchor-link" href="#Entrenamiendo-de-MLP-con-ajuste">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8468,6 +8578,17 @@ MLP Test accuracy: 0.8574
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=536e85a9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Verificaci%C3%B3n-de-MLP-ajustado">Verificación de MLP ajustado<a class="anchor-link" href="#Verificaci%C3%B3n-de-MLP-ajustado">¶</a></h4>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2d3885f2">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -8526,6 +8647,17 @@ MLP Test accuracy: 0.8574
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Las gráficas de entrenamiento de la RNN revelan un aprendizaje gradual y estable: la precisión de entrenamiento parte de alrededor del 67 % y asciende de forma continua hasta rozar el 90 % al final, mientras que la validación sigue un patrón muy similar, empezando en el 73 % y estabilizándose en torno al 86–87 %. Esta cercanía entre ambas curvas sugiere buen ajuste y escaso sobreajuste. En cuanto a la pérdida, vemos cómo la función de coste desciende rápidamente durante las primeras cinco épocas y luego se atenúa, con la pérdida de validación manteniéndose apenas por encima de la de entrenamiento. Aunque hay pequeños altibajos en la pérdida de validación hacia la mitad del proceso, la tendencia general de descenso confirma que la RNN aprende representaciones útiles de los dígitos y generaliza de manera consistente.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=86c4226d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Entrenamiento-con-Random-Forest">Entrenamiento con Random Forest<a class="anchor-link" href="#Entrenamiento-con-Random-Forest">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8623,6 +8755,28 @@ weighted avg       0.95      0.95      0.95     50000
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>El Random Forest consigue un rendimiento muy sólido, con una precisión en validación del 94.58 % y en test del 94.69 %, situándose claramente por encima del MLP (86.8 %) y acercándose al desempeño de la CNN (97.6 %). El informe de clasificación revela que la clase m4 es la más sencilla para el bosque de árboles (precisión y recall del 99 %), mientras que m0 es la más desafiante, con un recall del 87 % y un F1 de 0.90. En general, el elevado promedio macro y weighted (ambos 0.95) indica un modelo equilibrado sin sesgo notable hacia ninguna clase. Estos resultados muestran que, aun aplanando las imágenes, un Random Forest es capaz de capturar interacciones no lineales útiles y constituyen una base competitiva que combina interpretabilidad y buen desempeño.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9885b517">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Ejecuci%C3%B3n-con-Data-Augmentation">Ejecución con Data Augmentation<a class="anchor-link" href="#Ejecuci%C3%B3n-con-Data-Augmentation">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a8e7dfb6">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Tratamiento-y-entrenamiento">Tratamiento y entrenamiento<a class="anchor-link" href="#Tratamiento-y-entrenamiento">¶</a></h3>
 </div>
 </div>
 </div>
@@ -9029,7 +9183,7 @@ Epoch 00020: val_accuracy did not improve from 0.99533
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Visualizaci%C3%B3n-de-la-conversi%C3%B3n-de-imagenes-propias">Visualización de la conversión de imagenes propias<a class="anchor-link" href="#Visualizaci%C3%B3n-de-la-conversi%C3%B3n-de-imagenes-propias">¶</a></h4>
+<h4 id="Visualizaci%C3%B3n-de-la-conversi%C3%B3n-de-imagenes-propias">Visualización de la conversión de imagenes propias<a class="anchor-link" href="#Visualizaci%C3%B3n-de-la-conversi%C3%B3n-de-imagenes-propias">¶</a></h4><p>Se muestra cómo se realiza la conversión de las imágenes tomadas, suponiendo que esta escala es lo más parecida posible al dataset utilizado para el entrenamiento. El que el tratamiento sea ejecutado exitosamente, no asegura que el modelo interprete de manera adecuada o pueda predecir de manera acertada.</p>
 </div>
 </div>
 </div>
@@ -9038,7 +9192,7 @@ Epoch 00020: val_accuracy did not improve from 0.99533
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
@@ -9064,7 +9218,7 @@ Epoch 00020: val_accuracy did not improve from 0.99533
 
 <span class="k">for</span> <span class="n">fname</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="s2">"handwritten/"</span><span class="p">)):</span>
     <span class="n">show_preprocess</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s2">"handwritten/"</span><span class="p">,</span> <span class="n">fname</span><span class="p">))</span>
-    <span class="k">break</span>  <span class="c1"># muestra solo la primera</span>
+    <span class="k">break</span> 
 </pre></div>
 </div>
 </div>
@@ -9144,6 +9298,91 @@ IMG_3137.png → dígito: 8 (confianza 100.0%)
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h4 id="Hallazgos-relevantes">Hallazgos relevantes<a class="anchor-link" href="#Hallazgos-relevantes">¶</a></h4><p>Aunque usemos el modelo preentrenado más potente de MNIST “tal cual”, las fotografías de dígitos hechos a mano por el grupo difieren demasiado del estilo limpio de MNIST: fondo irregular, iluminación variable y trazos con grosor distinto. Al convertirlas únicamente a escala de grises, redimensionarlas a 28×28 y normalizarlas, la red no reconoce patrones familiares y acaba “encerrada” en la clase 8 con confianza absoluta. Esto demuestra que, sin un preprocesado más específico (binarización adaptativa, centrado del trazo, eliminación de ruido) o un breve fine-tuning con ejemplos reales del grupo, no podemos esperar que el modelo generalice correctamente a entradas tan distintas de su conjunto de entrenamiento original.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a7f59615">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Resultados-obtenidos-y-comparaci%C3%B3n">Resultados obtenidos y comparación<a class="anchor-link" href="#Resultados-obtenidos-y-comparaci%C3%B3n">¶</a></h1><h2 id="1.-Resumen-de-resultados">1. Resumen de resultados<a class="anchor-link" href="#1.-Resumen-de-resultados">¶</a></h2><table>
+<thead>
+<tr>
+<th>Modelo</th>
+<th style="text-align:right">Test Accuracy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MLP (2 capas ocultas)</strong></td>
+<td style="text-align:right">≈ 86 %</td>
+</tr>
+<tr>
+<td><strong>Random Forest</strong></td>
+<td style="text-align:right">≈ 94.7 %</td>
+</tr>
+<tr>
+<td><strong>CNN básica</strong></td>
+<td style="text-align:right">≈ 98.4 %</td>
+</tr>
+<tr>
+<td><strong>CNN + Data Augmentation</strong></td>
+<td style="text-align:right">≈ 97.6 %</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2.-Comparaci%C3%B3n-de-arquitecturas">2. Comparación de arquitecturas<a class="anchor-link" href="#2.-Comparaci%C3%B3n-de-arquitecturas">¶</a></h2><ul>
+<li><p><strong>Perceptrón Multicapa (MLP)</strong></p>
+<ul>
+<li>Precisión aceptable (~86 %), pero pierde la información espacial de las imágenes.</li>
+<li>Se atasca ante variaciones complejas de forma.</li>
+</ul>
+</li>
+<li><p><strong>Random Forest</strong></p>
+<ul>
+<li>Con imágenes aplanadas y píxeles como features alcanza ~94.7 %.</li>
+<li>Captura interacciones no lineales sin requerir GPU, buen balance entre rendimiento e interpretabilidad.</li>
+</ul>
+</li>
+<li><p><strong>CNN básica</strong></p>
+<ul>
+<li>Aprovecha convoluciones y pooling: converge rápido y supera el 98 % en test.</li>
+<li>Brecha mínima entre entrenamiento y validación indica escaso sobreajuste.</li>
+</ul>
+</li>
+<li><p><strong>CNN + Data Augmentation</strong></p>
+<ul>
+<li>Introducir rotaciones, shifts y zoom marginalmente mejora la robustez (+0.04 pp).</li>
+<li>Curvas de pérdida más suaves y early-stopping tardío confirman mejor generalización.</li>
+</ul>
+</li>
+</ul>
+<h2 id="3.-Evaluaci%C3%B3n-con-d%C3%ADgitos-manuscritos-reales">3. Evaluación con dígitos manuscritos reales<a class="anchor-link" href="#3.-Evaluaci%C3%B3n-con-d%C3%ADgitos-manuscritos-reales">¶</a></h2><ul>
+<li>Se probó un modelo preentrenado en MNIST <em>“tal cual”</em> usando fotos de dígitos dibujados a mano.</li>
+<li><strong>Resultado:</strong> todas las muestras fueron clasificadas como “8” con confianza del 100 %.</li>
+<li><strong>Causa:</strong> dominio de entrada muy distinto (iluminación, textura de papel, grosor de trazo).</li>
+</ul>
+<h2 id="4.-Observaciones-y-recomendaciones">4. Observaciones y recomendaciones<a class="anchor-link" href="#4.-Observaciones-y-recomendaciones">¶</a></h2><ol>
+<li><p><strong>Dominio y preprocesado</strong></p>
+<ul>
+<li>Las fotos de smartphone requieren binarización adaptativa, eliminación de fondo y centrado del dígito.</li>
+<li>Sin un paso de preprocesado específico el modelo falla por completo.</li>
+</ul>
+</li>
+<li><p><strong>Fine-tuning con datos reales</strong></p>
+<ul>
+<li>Añadir unas decenas de ejemplos reales al entrenamiento (transfer learning) ajusta filtros de la CNN a nuevas condiciones.</li>
+</ul>
+</li>
+<li><p><strong>Extensión de augmentation</strong></p>
+<ul>
+<li>Incluir jitter de iluminación, ruido y variaciones de grosor en el pipeline de data augmentation para simular mejor las fotos reales.</li>
+</ul>
+</li>
+</ol>
 </div>
 </div>
 </div>
